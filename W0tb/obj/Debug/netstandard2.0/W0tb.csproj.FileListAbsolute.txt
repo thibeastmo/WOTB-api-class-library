@@ -1,0 +1,18 @@
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.Tools.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.Tools.Replays.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.Tools.Vehicles.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\W0tb.csprojAssemblyReference.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\W0tb.AssemblyInfoInputs.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\W0tb.AssemblyInfo.cs
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.deps.json
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.Tools.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.Tools.Replays.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Debug\netstandard2.0\W0tb.Tools.Vehicles.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\W0tb.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\W0tb.pdb
+D:\Own_Made_Nugets\netstandard2.0\W0tb.deps.json
+D:\Own_Made_Nugets\netstandard2.0\W0tb.dll
+D:\Own_Made_Nugets\netstandard2.0\W0tb.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\W0tb.csproj.CoreCompileInputs.cache

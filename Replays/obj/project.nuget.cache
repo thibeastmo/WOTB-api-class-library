@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JLD61J+4SpaAVx19mszSpIlSS4hWIL7F2tQbo85gERmbI+dmFd9tgruz5W4D1uj4Q+jjwhUNFjg84qiwGVBA6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thimo\\Documents\\Mijn projecten\\W0tb\\Replays\\Replays.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thimo\\.nuget\\packages\\jsonbythibeastmo\\1.0.0\\jsonbythibeastmo.1.0.0.nupkg.sha512",
+    "C:\\Users\\thimo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thimo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

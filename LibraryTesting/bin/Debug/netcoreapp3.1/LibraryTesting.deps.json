@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LibraryTesting/1.0.0": {
+        "dependencies": {
+          "FMWOTB": "1.0.51",
+          "JsonObjectConverter": "1.0.38"
+        },
+        "runtime": {
+          "LibraryTesting.dll": {}
+        }
+      },
+      "DiscordHelper/1.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/DiscordHelper.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "FMWOTB/1.0.51": {
+        "dependencies": {
+          "DiscordHelper": "1.0.3",
+          "JsonObjectConverter": "1.0.38"
+        },
+        "runtime": {
+          "FMWOTB.dll": {}
+        }
+      },
+      "JsonObjectConverter.Reference/1.0.38.0": {
+        "runtime": {
+          "JsonObjectConverter.dll": {
+            "assemblyVersion": "1.0.38.0",
+            "fileVersion": "1.0.38.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibraryTesting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscordHelper/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vv/Ccr9gPTF+0IBmJGim4gKlimPrv3NdcaeaAywJVTfbCzJMYNRIoEEdo/pYRoMRQM+Hg+z1JRDS3sIPX/MIqA==",
+      "path": "discordhelper/1.0.3",
+      "hashPath": "discordhelper.1.0.3.nupkg.sha512"
+    },
+    "FMWOTB/1.0.51": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JsonObjectConverter.Reference/1.0.38.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

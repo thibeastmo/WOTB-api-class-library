@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>thibeastmo</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Fan made World Of Tanks Blitz package.
+Contains:
+- Vehicles
+- Replays tools
+- Clans
+- Accounts
+
+With updated JsonObjectConverter (+bugfixed)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ApplicationIcon>wotb_logo_as_ico.ico</ApplicationIcon>
+    <PackageIcon>wotb_logo.png</PackageIcon>
+    <Version>1.0.51</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Own_Made_Nugets\</OutputPath>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="D:\Afbeeldingen\wotb_logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordHelper" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\JsonObjectConverter\JsonObjectConverter\JsonObjectConverter.csproj" />
+  </ItemGroup>
+
+</Project>

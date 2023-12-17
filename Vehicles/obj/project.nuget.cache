@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VdoHlh+Zsj+8OFbSBlW1Dc8dfp5L16ygHvVvw0bGHW4pldREf/i2sSeQjOfX54MCRXM8J2XXsWKDGziWnBxwWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thimo\\Documents\\Mijn projecten\\W0tb\\Vehicles\\W0tb.Tools.Vehicles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thimo\\.nuget\\packages\\jsonbythibeastmo\\1.0.0\\jsonbythibeastmo.1.0.0.nupkg.sha512",
+    "C:\\Users\\thimo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thimo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

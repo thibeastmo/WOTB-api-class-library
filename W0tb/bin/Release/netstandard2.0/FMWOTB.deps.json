@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "FMWOTB/1.0.32": {
+        "dependencies": {
+          "DiscordHelper": "1.0.3",
+          "JsonObjectConverter": "1.0.28",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "FMWOTB.dll": {}
+        }
+      },
+      "DiscordHelper/1.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/DiscordHelper.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "JsonObjectConverter/1.0.28": {
+        "runtime": {
+          "lib/netstandard2.0/JsonObjectConverter.dll": {
+            "assemblyVersion": "1.0.28.0",
+            "fileVersion": "1.0.28.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FMWOTB/1.0.32": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscordHelper/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vv/Ccr9gPTF+0IBmJGim4gKlimPrv3NdcaeaAywJVTfbCzJMYNRIoEEdo/pYRoMRQM+Hg+z1JRDS3sIPX/MIqA==",
+      "path": "discordhelper/1.0.3",
+      "hashPath": "discordhelper.1.0.3.nupkg.sha512"
+    },
+    "JsonObjectConverter/1.0.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5CFvpDH9kkDbYmJxpX24IJeVhRPcYZYF8GrtSGdQ8XCgjotIt0Tx/0AfsjihGGVb10uZuaXulBJRliFyFwvAKg==",
+      "path": "jsonobjectconverter/1.0.28",
+      "hashPath": "jsonobjectconverter.1.0.28.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    }
+  }
+}

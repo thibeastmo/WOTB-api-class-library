@@ -1,0 +1,5 @@
+D:\Own_Made_Nugets\netstandard2.0\win-x64\publish\FMWOTB.dll
+D:\Own_Made_Nugets\netstandard2.0\win-x64\publish\FMWOTB.deps.json
+D:\Own_Made_Nugets\netstandard2.0\win-x64\publish\FMWOTB.pdb
+D:\Own_Made_Nugets\netstandard2.0\win-x64\publish\DiscordHelper.dll
+D:\Own_Made_Nugets\netstandard2.0\win-x64\publish\JsonObjectConverter.dll

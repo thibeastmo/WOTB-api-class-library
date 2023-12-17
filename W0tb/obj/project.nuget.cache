@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "9PWbpns9XIxWDr00ZGr4dgdrxzf6P2seNnkfFUq9New+73iASV4pyOi5btiQ2e6R2TAZ+/HTMIfllFS0aJBkRg==",
+  "success": false,
+  "projectFilePath": "D:\\Mijn projecten\\W0tb\\W0tb\\FMWOTB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thimo\\.nuget\\packages\\discordhelper\\1.0.3\\discordhelper.1.0.3.nupkg.sha512",
+    "C:\\Users\\thimo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thimo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

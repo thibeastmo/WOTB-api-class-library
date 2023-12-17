@@ -1,0 +1,9 @@
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\bin\Debug\netstandard2.0\W0tb.Tools.Vehicles.deps.json
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\bin\Debug\netstandard2.0\W0tb.Tools.Vehicles.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\obj\Debug\netstandard2.0\W0tb.Tools.Vehicles.AssemblyInfoInputs.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\obj\Debug\netstandard2.0\W0tb.Tools.Vehicles.AssemblyInfo.cs
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\bin\Debug\netstandard2.0\W0tb.Tools.Vehicles.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\obj\Debug\netstandard2.0\W0tb.Tools.Vehicles.csprojAssemblyReference.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\obj\Debug\netstandard2.0\W0tb.Tools.Vehicles.csproj.CoreCompileInputs.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\obj\Debug\netstandard2.0\W0tb.Tools.Vehicles.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\Vehicles\obj\Debug\netstandard2.0\W0tb.Tools.Vehicles.pdb

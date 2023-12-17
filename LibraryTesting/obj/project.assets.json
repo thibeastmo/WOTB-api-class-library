@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DiscordHelper/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/DiscordHelper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DiscordHelper.dll": {}
+        }
+      },
+      "JsonObjectConverter/1.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JsonObjectConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JsonObjectConverter.dll": {}
+        }
+      },
+      "FMWOTB/1.0.51": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj": "1.0.0",
+          "DiscordHelper": "1.0.3"
+        },
+        "compile": {
+          "bin/placeholder/FMWOTB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FMWOTB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiscordHelper/1.0.3": {
+      "sha512": "Vv/Ccr9gPTF+0IBmJGim4gKlimPrv3NdcaeaAywJVTfbCzJMYNRIoEEdo/pYRoMRQM+Hg+z1JRDS3sIPX/MIqA==",
+      "type": "package",
+      "path": "discordhelper/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "discord_log.png",
+        "discordhelper.1.0.3.nupkg.sha512",
+        "discordhelper.nuspec",
+        "lib/netstandard2.0/DiscordHelper.dll"
+      ]
+    },
+    "JsonObjectConverter/1.0.34": {
+      "sha512": "HKvEWu02l9ZqTntmpKDCWjlD8DiCxssLiFIwFn3bhlGf3wyxyJgLUUq9MJQ+4rvgpefPToJAU8/z7jbaOD9iyA==",
+      "type": "package",
+      "path": "jsonobjectconverter/1.0.34",
+      "files": [
+        ".nupkg.metadata",
+        "json_logo.png",
+        "jsonobjectconverter.1.0.34.nupkg.sha512",
+        "jsonobjectconverter.nuspec",
+        "lib/netstandard2.0/JsonObjectConverter.dll"
+      ]
+    },
+    "FMWOTB/1.0.51": {
+      "type": "project",
+      "path": "../W0tb/FMWOTB.csproj",
+      "msbuildProject": "../W0tb/FMWOTB.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "FMWOTB >= 1.0.51",
+      "JsonObjectConverter >= 1.0.34"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\thimo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mijn projecten\\W0tb\\LibraryTesting\\LibraryTesting.csproj",
+      "projectName": "LibraryTesting",
+      "projectPath": "D:\\Mijn projecten\\W0tb\\LibraryTesting\\LibraryTesting.csproj",
+      "packagesPath": "C:\\Users\\thimo\\.nuget\\packages\\",
+      "outputPath": "D:\\Mijn projecten\\W0tb\\LibraryTesting\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\thimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Own_Made_Nugets": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.emzi0767.com/api/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Mijn projecten\\W0tb\\W0tb\\FMWOTB.csproj": {
+              "projectPath": "D:\\Mijn projecten\\W0tb\\W0tb\\FMWOTB.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "JsonObjectConverter": {
+            "target": "Package",
+            "version": "[1.0.34, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

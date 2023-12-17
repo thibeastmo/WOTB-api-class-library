@@ -1,0 +1,10 @@
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\FMWOTB.deps.json
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\FMWOTB.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\FMWOTB.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Release\netstandard2.0\FMWOTB.AssemblyInfoInputs.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Release\netstandard2.0\FMWOTB.AssemblyInfo.cs
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Release\netstandard2.0\FMWOTB.csproj.CoreCompileInputs.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Release\netstandard2.0\FMWOTB.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Release\netstandard2.0\FMWOTB.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Release\netstandard2.0\FMWOTB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Release\netstandard2.0\FMWOTB.csprojAssemblyReference.cache

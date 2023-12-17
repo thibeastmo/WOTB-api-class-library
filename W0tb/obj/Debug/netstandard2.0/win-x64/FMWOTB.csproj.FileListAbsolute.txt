@@ -1,0 +1,10 @@
+D:\Own_Made_Nugets\netstandard2.0\win-x64\FMWOTB.deps.json
+D:\Own_Made_Nugets\netstandard2.0\win-x64\FMWOTB.dll
+D:\Own_Made_Nugets\netstandard2.0\win-x64\FMWOTB.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\win-x64\FMWOTB.csproj.AssemblyReference.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\win-x64\FMWOTB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\win-x64\FMWOTB.AssemblyInfoInputs.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\win-x64\FMWOTB.AssemblyInfo.cs
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\win-x64\FMWOTB.csproj.CoreCompileInputs.cache
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\win-x64\FMWOTB.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\obj\Debug\netstandard2.0\win-x64\FMWOTB.pdb

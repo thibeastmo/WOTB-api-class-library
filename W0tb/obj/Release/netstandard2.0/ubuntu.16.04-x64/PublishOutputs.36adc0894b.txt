@@ -1,0 +1,5 @@
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\ubuntu.16.04-x64\publish\FMWOTB.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\ubuntu.16.04-x64\publish\FMWOTB.deps.json
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\ubuntu.16.04-x64\publish\FMWOTB.pdb
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\ubuntu.16.04-x64\publish\DiscordHelper.dll
+C:\Users\thimo\Documents\Mijn projecten\W0tb\W0tb\bin\Release\netstandard2.0\ubuntu.16.04-x64\publish\JsonObjectConverter.dll

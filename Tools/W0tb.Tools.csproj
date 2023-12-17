@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonByThibeastmo" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Replays\Replays.csproj" />
+    <ProjectReference Include="..\Vehicles\W0tb.Tools.Vehicles.csproj" />
+  </ItemGroup>
+
+</Project>
