@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using FMWOTB.Exceptions;
 
 namespace FMWOTB.Account
 {
@@ -339,6 +340,9 @@ namespace FMWOTB.Account
                 form1.Add(new StringContent(searchTerm), "fields");
             }
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
         private static async Task<string> searchAccountByString(string key, string searchTerm)
@@ -348,6 +352,9 @@ namespace FMWOTB.Account
             MultipartFormDataContent form1 = new MultipartFormDataContent();
             form1.Add(new StringContent(searchTerm), "search");
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
         private void setClanByJson(Json json, bool loadMembers)
@@ -487,6 +494,9 @@ namespace FMWOTB.Account
                 form1.Add(new StringContent(account_id.ToString()), "account_id");
             }
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
         public static async Task<string> GarageVehiclesOfPlayerToString(string key, long account_id)
@@ -496,6 +506,9 @@ namespace FMWOTB.Account
             HttpClient httpClient = new HttpClient();
             MultipartFormDataContent form1 = new MultipartFormDataContent();
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
     }

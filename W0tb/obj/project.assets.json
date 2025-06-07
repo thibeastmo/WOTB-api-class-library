@@ -34,6 +34,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "JsonObjectConverter/1.0.38": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/JsonObjectConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JsonObjectConverter.dll": {}
+        }
       }
     }
   },
@@ -193,20 +203,26 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "JsonObjectConverter/1.0.38": {
+      "type": "project",
+      "path": "../../JsonObjectConverter/JsonObjectConverter/JsonObjectConverter.csproj",
+      "msbuildProject": "../../JsonObjectConverter/JsonObjectConverter/JsonObjectConverter.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj",
       "DiscordHelper >= 1.0.3",
+      "JsonObjectConverter >= 1.0.38",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thimo\\.nuget\\packages\\": {}
+    "C:\\Users\\thimo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.51",
+    "version": "1.0.52",
     "restore": {
       "projectUniqueName": "D:\\Mijn projecten\\W0tb\\W0tb\\FMWOTB.csproj",
       "projectName": "FMWOTB",
@@ -214,8 +230,12 @@
       "packagesPath": "C:\\Users\\thimo\\.nuget\\packages\\",
       "outputPath": "D:\\Mijn projecten\\W0tb\\W0tb\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\thimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -223,6 +243,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "D:\\Own_Made_Nugets": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.emzi0767.com/api/v3/index.json": {}
@@ -264,23 +285,13 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "D:\\Mijn projecten\\JsonObjectConverter\\JsonObjectConverter\\JsonObjectConverter.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

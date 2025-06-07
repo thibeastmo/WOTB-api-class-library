@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using FMWOTB.Exceptions;
 
 namespace FMWOTB.Clans
 {
@@ -183,6 +184,9 @@ namespace FMWOTB.Clans
                 form1.Add(new StringContent("clan"), "extra");
             }
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
         public static async Task<string> clanDetailsInfoToString(string key, long clan_id)
@@ -198,6 +202,9 @@ namespace FMWOTB.Clans
                 //form1.Add(new StringContent("recruiting_options"), "extra");
             }
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
         private static async Task<string> searchAccountByString(string key, string searchTerm)
@@ -207,6 +214,9 @@ namespace FMWOTB.Clans
             MultipartFormDataContent form1 = new MultipartFormDataContent();
             form1.Add(new StringContent(searchTerm), "search");
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
         public static async Task<IReadOnlyList<WGClan>> searchByName(SearchAccuracy accuracy, string term, string wg_application_key, bool loadMembers)

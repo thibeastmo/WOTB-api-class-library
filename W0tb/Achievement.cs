@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using FMWOTB.Exceptions;
 
 namespace FMWOTB
 {
@@ -83,6 +84,9 @@ namespace FMWOTB
                 url += "&fields=" + sb.ToString();
             }
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             string tempString = await response.Content.ReadAsStringAsync();
             if (Achievement.achievements == null || Achievement.achievements.Count == 0)
             {

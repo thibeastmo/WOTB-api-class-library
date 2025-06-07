@@ -15,9 +15,11 @@ namespace LibraryTesting
         public const long ACCOUNT_ID = 538258181;
         static void Main(string[] args)
         {
-            //string account_name = "THIBEASTMO";
+            string account_name = "THIBEASTMO";
             //var accounts = WGAccount.searchByName(FMWOTB.Tools.SearchAccuracy.EXACT, account_name, WG_APPLICATION_ID,
             //    loadVehicles: true, loadClanMembers: false, loadClan: false, loadStatistics: false).Result;
+            var accounts = WGAccount.searchByName(FMWOTB.Tools.SearchAccuracy.EXACT, account_name, WG_APPLICATION_ID,
+                loadVehicles: 2, loadClanMembers: false, loadClan: false, loadStatistics: false).Result;
 
 
             //WGBattle battle = new WGBattle("https://replays.wotinspector.com/en/view/dfbb4828ae5f069de36b495d57310086");
@@ -33,9 +35,9 @@ namespace LibraryTesting
             //string tournamentString = WGTournament.tournamentsToString(WG_APPLICATION_ID, long.Parse(tournamentsJson.jsonArray[0].Item2.tupleList[8].Item2.Item1)).Result;
             //WGTournament tournament = new WGTournament(new Json(tournamentString, string.Empty));
 
-            var accountNoVehicles = new WGAccount(WG_APPLICATION_ID, ACCOUNT_ID, loadVehicles: 0);
-            var accountAllVehicles = new WGAccount(WG_APPLICATION_ID, ACCOUNT_ID, loadVehicles: 1);
-            var accountGarageVehicles = new WGAccount(WG_APPLICATION_ID, ACCOUNT_ID, loadVehicles: 2);
+            //var accountNoVehicles = new WGAccount(WG_APPLICATION_ID, ACCOUNT_ID, loadVehicles: 0);
+            //var accountAllVehicles = new WGAccount(WG_APPLICATION_ID, ACCOUNT_ID, loadVehicles: 1);
+            //var accountGarageVehicles = new WGAccount(WG_APPLICATION_ID, ACCOUNT_ID, loadVehicles: 2);
 
             bool ok = true;
         }

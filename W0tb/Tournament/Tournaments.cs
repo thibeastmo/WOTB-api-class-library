@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using FMWOTB.Exceptions;
 
 namespace FMWOTB.Tournament
 {
@@ -129,6 +130,9 @@ namespace FMWOTB.Tournament
             HttpClient httpClient = new HttpClient();
             MultipartFormDataContent form1 = new MultipartFormDataContent();
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
     }

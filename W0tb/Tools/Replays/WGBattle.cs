@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Text;
 using System.Globalization;
 using System.Linq;
+using FMWOTB.Exceptions;
 
 namespace FMWOTB.Tools.Replays
 {
@@ -124,7 +125,6 @@ namespace FMWOTB.Tools.Replays
         }
         private async Task<string> replayToString(string path, string title, ulong? wg_id = null)
         {
-
             string url = @"https://wotinspector.com/api/replay/upload?url=";
             HttpClient httpClient = new HttpClient();
             MultipartFormDataContent form1 = new MultipartFormDataContent();
@@ -171,6 +171,9 @@ namespace FMWOTB.Tools.Replays
             }
 
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
 
 

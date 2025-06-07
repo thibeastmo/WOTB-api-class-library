@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using FMWOTB.Exceptions;
 
 namespace FMWOTB.Tournament
 {
@@ -126,6 +127,9 @@ namespace FMWOTB.Tournament
                 form1.Add(new StringContent(tournament_id.ToString()), "tournament_id");
             }
             HttpResponseMessage response = await httpClient.PostAsync(url, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return await response.Content.ReadAsStringAsync();
         }
     }

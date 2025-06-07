@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using FMWOTB.Exceptions;
 
 namespace FMWOTB
 {
@@ -40,6 +41,9 @@ namespace FMWOTB
                 form1.Add(new StringContent(tuple.Item2), tuple.Item1);
             }
             HttpResponseMessage response = await httpClient.PostAsync(requestString, form1);
+            if ((int)response.StatusCode >= 500){
+                throw new InternalServerErrorException();
+            }
             return new Tuple<string, string>(response.Headers.Location.AbsoluteUri, await response.Content.ReadAsStringAsync());
         }
         private Tuple<string, string> getApplicationTuple()

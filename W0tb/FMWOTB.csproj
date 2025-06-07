@@ -15,7 +15,7 @@ With updated JsonObjectConverter (+bugfixed)</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <ApplicationIcon>wotb_logo_as_ico.ico</ApplicationIcon>
     <PackageIcon>wotb_logo.png</PackageIcon>
-    <Version>1.0.51</Version>
+    <Version>1.0.52</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
